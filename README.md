@@ -1,6 +1,6 @@
 # aws-s3_workflow
 
-🎍🎍🎍 Terraformを用いてAWS上にリソースを構築し、とGitHub ActionsでCI/CDに載せるサンプルプロジェクトです。  
+🎍🎍🎍 Terraformを用いてAWS上にリソースを構築し、GitHub ActionsでCI/CDに載せるサンプルプロジェクトです。  
 
 ![成果物](./.development/img/fruit.gif)  
 
