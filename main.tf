@@ -42,3 +42,19 @@ resource "aws_s3_bucket_public_access_block" "aws-s3-workflow-public-access-bloc
   restrict_public_buckets = false
 }
 
+resource "aws_s3_bucket_policy" "example_bucket_policy" {
+  bucket = aws_s3_bucket.aws-s3-workflow.bucket
+
+  policy = jsonencode({
+    Version = "2012-10-17",
+    Statement = [
+      {
+        Sid = "PublicReadGetObject",
+        Effect = "Allow",
+        Principal = "*",
+        Action = "s3:GetObject",
+        Resource = "arn:aws:s3:::aws-s3-workflow/*"
+      }
+    ]
+  })
+}
