@@ -16,6 +16,19 @@ GitHubのシークレットに以下の値を設定してください。
 
 `terraform.tfvars.example`を`terraform.tfvars`にリネームして、値を設定してください。  
 
+## 実行方法
+
+TerraformでAWSのリソースを作成します。  
+
+```shell
+terraform init
+terraform plan
+terraform apply
+```
+
+GitHub ActionsでS3にデプロイします。  
+mainブランチにpushすると自動で実行されます。  
+
 ## 参考資料
 
 - [Terraform(S3)](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket)
