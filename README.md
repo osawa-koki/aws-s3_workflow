@@ -2,6 +2,8 @@
 
 🎍🎍🎍 AWS S3をTerraformとGitHub ActionsでCI/CDに載せるサンプルプロジェクトです。  
 
+![成果物](./.development/img/fruit.gif)  
+
 ## イロイロ設定
 
 GitHubのシークレットに以下の値を設定してください。  
@@ -11,6 +13,8 @@ GitHubのシークレットに以下の値を設定してください。
 | AWS_ACCESS_KEY_ID | AWSのアクセスキー |
 | AWS_SECRET_ACCESS_KEY | AWSのシークレットキー |
 | AWS_REGION | AWSのリージョン |
+
+`terraform.tfvars.example`を`terraform.tfvars`にリネームして、値を設定してください。  
 
 ## 参考資料
 
