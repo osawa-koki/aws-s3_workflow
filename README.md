@@ -1,6 +1,6 @@
 # aws-s3_workflow
 
-AWS S3をTerraformとGitHub ActionsでCI/CDに載せるサンプルプロジェクトです。  
+🎍🎍🎍 AWS S3をTerraformとGitHub ActionsでCI/CDに載せるサンプルプロジェクトです。  
 
 ## イロイロ設定
 
